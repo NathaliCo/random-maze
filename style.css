@@ -1,0 +1,70 @@
+/* Settings */
+
+.container{
+    max-width: 1200px;
+    margin: 0px auto;
+
+}
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  /*Util*/
+  .center-text{
+      text-align: center;
+  }
+
+/*Header */
+
+header{
+    background-color: #b5b5b5;
+}
+
+
+/* Content */
+
+.content{
+    display: grid;
+    grid-template-columns: 75% 29%;
+    grid-gap: 6%;
+}
+
+#scene{
+    display: block;
+    height: 650px;
+
+}
+
+#scene, aside{
+    height: 100%;
+}
+
+/* Aside */
+aside{
+    background-color: #b5b5b5;
+    height: 650px;
+}
+
+aside table{
+    margin: 3rem auto 5rem auto;
+    border-style: solid;
+    border-color: black;
+}
+
+#scene canvas{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+/* Footer */
+footer{
+    background-color: #b5b5b5;
+    padding: 3rem;
+    margin-top: 2rem;
+}
+
